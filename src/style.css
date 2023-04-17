@@ -1,0 +1,42 @@
+.card-largura {
+    max-width: 18rem; /*tamanho maximo e não deve ser esticado*/
+}
+
+.imagem-carrossel-um {
+    object-fit: cover; /*preencha o espaço do container, sem ficar com a imagem achatada*/
+    object-position: 0 80%; /*mover a imagem no eixo x e y*/
+    height: 400px;
+}
+
+.imagem-carrossel-dois {
+    object-fit: cover;
+    /* object-position: 0 80%; */
+    height: 400px;
+}
+
+.fonte-titulo {
+    font-family: 'Pacifico', cursive;
+}
+
+.cor-especial {
+    color: darkred !important;
+}
+
+.botao-cor-especial {
+    background-color: darkred;
+    color: white;
+}
+
+.botao-cor-especial:hover {
+    background-color: darkred;
+}
+
+.borda-cor-especial {
+    border-color: darkred;
+}
+
+.card-posicao-imagem {
+    object-fit: cover;
+    /* object-position: 0 80%; */
+    height: 200px;
+}
